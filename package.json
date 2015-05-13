@@ -1,5 +1,10 @@
 {
+  "name": "Test",
   "dependencies": {
     "express": "^4.12.3"
+  },
+  "scripts": {
+    "postinstall": "winser -i -s -c",
+    "preuninstall": "winser -r -x -s"
   }
 }
